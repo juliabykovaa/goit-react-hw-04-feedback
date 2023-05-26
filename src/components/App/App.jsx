@@ -22,6 +22,8 @@ function App() {
       case 'bad':
         setBad(bad + 1);
         break;
+      default:
+        break;
     }
   };
 
@@ -52,6 +54,6 @@ function App() {
       </Title>
     </Section>
   );
-};
+}
 
 export default App;
